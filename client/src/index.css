@@ -1,0 +1,73 @@
+.Toastify__toast-body {
+  font-family: "Almarai";
+}
+.ant-image-preview-img {
+  display: initial !important;
+}
+.ant-upload-list {
+  display:flex;
+  justify-content: center;
+}
+.ant-upload-list-item-name{
+  word-wrap: break-word;
+  word-break: break-all;
+  display: none;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.custom-shape-divider-top-1615563565 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1615563565 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 48px;
+}
+
+.custom-shape-divider-top-1615563565 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.ant-carousel .slick-next {
+  right:0px  !important;
+  height:100px;
+  z-index:9999
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {  
+  height: auto;
+} 
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }  
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }  
+}

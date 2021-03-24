@@ -1,0 +1,85 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.2",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.20.4",
+    "@types/react": "^16.14.4",
+    "@types/react-dom": "^16.9.11",
+    "@types/react-draft-wysiwyg": "^1.13.1",
+    "@types/react-redux": "^7.1.16",
+    "@types/redux-logger": "^3.0.8",
+    "antd": "^4.12.3",
+    "antd-img-crop": "^3.14.1",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "classnames": "^2.2.6",
+    "customize-cra": "^1.0.0",
+    "dayjs": "^1.10.4",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "draftjs-to-markdown": "^0.6.0",
+    "html-react-parser": "^1.2.4",
+    "i": "^0.3.6",
+    "less-loader": "^5.0.0",
+    "npm": "^7.6.0",
+    "react": "^17.0.1",
+    "react-app-rewired": "^2.1.8",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-player": "^2.9.0",
+    "react-quiz-component": "^0.3.8",
+    "react-redux": "^7.2.2",
+    "react-responsive-embed": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-share": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "react-string-replace": "^0.4.4",
+    "react-toastify": "^7.0.3",
+    "redux-logger": "^3.0.6",
+    "typescript": "^4.1.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-app-rewired start",
+    "build": "npm run watch:css && react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/output.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/draft-js": "^0.10.44",
+    "@types/react-router-dom": "^5.1.7",
+    "autoprefixer": "^10.2.4",
+    "less": "^4.1.1",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "ra-data-simple-rest": "^3.10.4",
+    "tailwindcss": "^2.0.3"
+  }
+}
